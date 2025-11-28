@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Magia Piura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chat-app">
+
+        <div class="header">
+            <img src="logo.png" class="logo">
+            <h2>Magia Piura</h2>
+        </div>
+
+        <div id="chatbox"></div>
+
+        <div class="quick-buttons">
+            <button onclick="showCategories()">Productos & Precios 🍫</button>
+            <button onclick="quick('delivery')">Delivery 🚚</button>
+            <button onclick="quick('premios')">Premios 🏆</button>
+            <button onclick="quick('historia')">Historia 📖</button>
+            <button onclick="quick('contacto')">Contacto 📲</button>
+        </div>
+
+        <div class="input-area">
+            <input id="userInput" type="text" placeholder="Escribe tu mensaje…">
+            <button onclick="sendMsg()">➤</button>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
