@@ -1,0 +1,101 @@
+body {
+    background: #f4efe7;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 430px;
+    margin: auto;
+    margin-top: 20px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 0 12px #0003;
+}
+
+.header {
+    background: #8f7452; /* Marrón principal */
+    padding: 16px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 14px 14px 0 0;
+    font-size: 18px;
+}
+
+.chatbox {
+    height: 520px;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.message {
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 80%;
+    line-height: 1.4;
+}
+
+.user {
+    background: #d9ffd7;
+    margin-left: auto;
+}
+
+.bot {
+    background: #fde8d3;
+    margin-right: auto;
+}
+
+.input-area {
+    display: flex;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+button {
+    padding: 12px 15px;
+    border: none;
+    background: #8f7452;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #6b563d;
+}
+
+.btn-option {
+    display: inline-block;
+    background: #8f7452;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 6px 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-option:hover {
+    background: #6b563d;
+}
+
+.product-card {
+    background: #fff5ec;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #e6d2bd;
+    line-height: 1.5;
+}
+
+.price {
+    color: #8f7452;
+    font-weight: bold;
+}
